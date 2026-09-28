@@ -1,0 +1,251 @@
+alert_id,entity_id,source_type,severity,raised_at,description,is_true_positive
+ALT-00013,ENT-0068,transaction_monitoring,high,2026-09-28T10:36:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00057,ENT-0057,transaction_monitoring,high,2026-09-28T04:56:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00144,ENT-0049,transaction_monitoring,low,2026-09-26T16:49:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00140,ENT-0017,watchlist_hit,low,2026-09-26T12:44:00Z,Partial name similarity to a monitored party,False
+ALT-00016,ENT-0018,transaction_monitoring,low,2026-09-26T04:08:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00072,ENT-0008,transaction_monitoring,low,2026-09-25T23:34:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00244,ENT-0055,velocity_rule,low,2026-09-25T20:05:00Z,Short burst of attempts from a familiar channel,False
+ALT-00002,ENT-0034,watchlist_hit,high,2026-09-25T18:20:00Z,Strong identity match to a monitored party,False
+ALT-00012,ENT-0035,watchlist_hit,low,2026-09-25T02:19:00Z,Weak transliteration match requires analyst review,True
+ALT-00146,ENT-0054,transaction_monitoring,low,2026-09-24T22:26:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00177,ENT-0042,velocity_rule,high,2026-09-24T00:12:00Z,Extreme transaction burst across multiple channels,False
+ALT-00020,ENT-0033,watchlist_hit,medium,2026-09-23T19:41:00Z,Multiple identity fields match a watchlist record,False
+ALT-00044,ENT-0055,velocity_rule,medium,2026-09-23T12:22:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00108,ENT-0034,transaction_monitoring,low,2026-09-23T06:12:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00220,ENT-0046,transaction_monitoring,low,2026-09-22T12:08:00Z,Small transfer outside established account behavior,False
+ALT-00026,ENT-0059,velocity_rule,low,2026-09-22T03:08:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00094,ENT-0067,transaction_monitoring,medium,2026-09-22T03:00:00Z,Layered transfers across newly observed counterparties,False
+ALT-00088,ENT-0035,kyc_mismatch,high,2026-09-21T19:41:00Z,Material beneficial-owner mismatch detected,False
+ALT-00227,ENT-0042,velocity_rule,low,2026-09-19T21:49:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00017,ENT-0005,kyc_mismatch,high,2026-09-18T13:34:00Z,Core identity details failed independent verification,False
+ALT-00075,ENT-0026,velocity_rule,medium,2026-09-18T07:45:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00156,ENT-0036,velocity_rule,low,2026-09-18T05:36:00Z,Short burst of attempts from a familiar channel,False
+ALT-00047,ENT-0068,transaction_monitoring,low,2026-09-18T04:40:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00007,ENT-0049,velocity_rule,low,2026-09-17T14:57:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00038,ENT-0015,transaction_monitoring,high,2026-09-17T01:32:00Z,Large rapid movement of funds through linked accounts,True
+ALT-00063,ENT-0066,transaction_monitoring,low,2026-09-16T18:28:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00199,ENT-0018,transaction_monitoring,medium,2026-09-16T17:10:00Z,Layered transfers across newly observed counterparties,False
+ALT-00064,ENT-0056,kyc_mismatch,high,2026-09-16T02:30:00Z,Material beneficial-owner mismatch detected,True
+ALT-00243,ENT-0038,velocity_rule,high,2026-09-16T02:16:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00029,ENT-0023,kyc_mismatch,high,2026-09-15T19:14:00Z,Core identity details failed independent verification,True
+ALT-00132,ENT-0062,kyc_mismatch,low,2026-09-15T04:47:00Z,Business classification requires profile review,False
+ALT-00009,ENT-0016,transaction_monitoring,medium,2026-09-14T20:49:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00172,ENT-0046,kyc_mismatch,medium,2026-09-14T20:21:00Z,Identity attributes conflict across verification sources,False
+ALT-00183,ENT-0053,kyc_mismatch,high,2026-09-14T14:37:00Z,Core identity details failed independent verification,False
+ALT-00250,ENT-0046,velocity_rule,medium,2026-09-13T16:16:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00137,ENT-0011,transaction_monitoring,medium,2026-09-13T14:36:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00224,ENT-0024,velocity_rule,high,2026-09-13T01:03:00Z,Extreme transaction burst across multiple channels,False
+ALT-00123,ENT-0030,transaction_monitoring,low,2026-09-12T13:09:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00053,ENT-0038,transaction_monitoring,low,2026-09-12T11:51:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00166,ENT-0066,velocity_rule,medium,2026-09-12T09:45:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00052,ENT-0038,watchlist_hit,low,2026-09-11T14:09:00Z,Weak transliteration match requires analyst review,False
+ALT-00060,ENT-0011,watchlist_hit,medium,2026-09-09T03:22:00Z,Name and jurisdiction align with a monitored party,True
+ALT-00119,ENT-0036,transaction_monitoring,medium,2026-09-08T03:56:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00084,ENT-0038,transaction_monitoring,medium,2026-09-07T20:38:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00086,ENT-0028,watchlist_hit,low,2026-09-07T04:24:00Z,Weak transliteration match requires analyst review,False
+ALT-00204,ENT-0040,kyc_mismatch,medium,2026-09-06T11:09:00Z,Identity attributes conflict across verification sources,False
+ALT-00154,ENT-0042,transaction_monitoring,high,2026-09-05T06:03:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00058,ENT-0011,transaction_monitoring,low,2026-09-04T05:35:00Z,Small transfer outside established account behavior,False
+ALT-00024,ENT-0020,velocity_rule,medium,2026-09-04T03:37:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00093,ENT-0054,watchlist_hit,low,2026-09-03T21:41:00Z,Partial name similarity to a monitored party,False
+ALT-00073,ENT-0010,watchlist_hit,medium,2026-09-03T20:24:00Z,Multiple identity fields match a watchlist record,True
+ALT-00005,ENT-0055,transaction_monitoring,medium,2026-09-03T06:00:00Z,Layered transfers across newly observed counterparties,False
+ALT-00036,ENT-0052,velocity_rule,medium,2026-09-02T12:36:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00117,ENT-0034,velocity_rule,low,2026-09-02T03:26:00Z,Short burst of attempts from a familiar channel,False
+ALT-00113,ENT-0034,transaction_monitoring,medium,2026-09-01T08:20:00Z,Layered transfers across newly observed counterparties,False
+ALT-00127,ENT-0011,velocity_rule,high,2026-09-01T00:22:00Z,Extreme transaction burst across multiple channels,False
+ALT-00237,ENT-0061,transaction_monitoring,low,2026-08-31T08:03:00Z,Small transfer outside established account behavior,False
+ALT-00035,ENT-0068,transaction_monitoring,low,2026-08-30T05:07:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00178,ENT-0014,velocity_rule,medium,2026-08-30T01:41:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00011,ENT-0014,velocity_rule,medium,2026-08-29T15:25:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00139,ENT-0034,kyc_mismatch,high,2026-08-27T14:11:00Z,Material beneficial-owner mismatch detected,False
+ALT-00091,ENT-0058,transaction_monitoring,high,2026-08-27T07:08:00Z,High-value transaction chain with unexplained purpose,True
+ALT-00236,ENT-0064,velocity_rule,high,2026-08-27T05:52:00Z,Extreme transaction burst across multiple channels,False
+ALT-00092,ENT-0002,transaction_monitoring,low,2026-08-27T03:35:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00034,ENT-0008,kyc_mismatch,medium,2026-08-26T21:31:00Z,Identity attributes conflict across verification sources,True
+ALT-00008,ENT-0034,velocity_rule,low,2026-08-26T10:58:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00221,ENT-0035,velocity_rule,high,2026-08-26T03:02:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00219,ENT-0036,transaction_monitoring,low,2026-08-23T05:27:00Z,Small transfer outside established account behavior,False
+ALT-00076,ENT-0021,velocity_rule,medium,2026-08-22T21:32:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00100,ENT-0068,kyc_mismatch,low,2026-08-20T21:34:00Z,Minor profile detail differs from verification record,False
+ALT-00158,ENT-0012,watchlist_hit,medium,2026-08-20T19:21:00Z,Name and jurisdiction align with a monitored party,True
+ALT-00229,ENT-0019,kyc_mismatch,low,2026-08-19T06:58:00Z,Business classification requires profile review,False
+ALT-00225,ENT-0014,velocity_rule,low,2026-08-18T20:13:00Z,Short burst of attempts from a familiar channel,False
+ALT-00010,ENT-0066,watchlist_hit,medium,2026-08-18T19:11:00Z,Multiple identity fields match a watchlist record,False
+ALT-00170,ENT-0020,transaction_monitoring,medium,2026-08-18T10:05:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00128,ENT-0017,transaction_monitoring,medium,2026-08-18T06:31:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00211,ENT-0004,velocity_rule,medium,2026-08-18T00:14:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00147,ENT-0066,watchlist_hit,medium,2026-08-17T18:43:00Z,Multiple identity fields match a watchlist record,False
+ALT-00131,ENT-0030,transaction_monitoring,low,2026-08-17T11:30:00Z,Unusual transaction pattern above peer baseline,True
+ALT-00136,ENT-0026,transaction_monitoring,low,2026-08-17T07:30:00Z,Small transfer outside established account behavior,False
+ALT-00106,ENT-0032,transaction_monitoring,medium,2026-08-16T19:04:00Z,Layered transfers across newly observed counterparties,False
+ALT-00025,ENT-0043,velocity_rule,high,2026-08-16T16:39:00Z,Extreme transaction burst across multiple channels,False
+ALT-00110,ENT-0021,kyc_mismatch,medium,2026-08-15T13:02:00Z,Ownership information differs from submitted profile,False
+ALT-00080,ENT-0024,velocity_rule,medium,2026-08-15T12:51:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00081,ENT-0035,velocity_rule,medium,2026-08-14T23:05:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00242,ENT-0012,transaction_monitoring,medium,2026-08-14T15:09:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00226,ENT-0031,velocity_rule,low,2026-08-14T14:16:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00109,ENT-0046,velocity_rule,high,2026-08-13T23:01:00Z,Sustained high-frequency activity after repeated declines,True
+ALT-00078,ENT-0035,transaction_monitoring,low,2026-08-13T22:19:00Z,Small transfer outside established account behavior,False
+ALT-00207,ENT-0011,velocity_rule,high,2026-08-13T19:57:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00161,ENT-0011,kyc_mismatch,low,2026-08-13T16:18:00Z,Minor profile detail differs from verification record,False
+ALT-00194,ENT-0027,transaction_monitoring,low,2026-08-13T12:50:00Z,Small transfer outside established account behavior,False
+ALT-00141,ENT-0046,watchlist_hit,medium,2026-08-12T16:53:00Z,Multiple identity fields match a watchlist record,True
+ALT-00138,ENT-0048,kyc_mismatch,high,2026-08-12T06:52:00Z,Core identity details failed independent verification,True
+ALT-00160,ENT-0003,transaction_monitoring,medium,2026-08-11T23:35:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00149,ENT-0008,velocity_rule,low,2026-08-11T09:57:00Z,Short burst of attempts from a familiar channel,False
+ALT-00006,ENT-0059,velocity_rule,medium,2026-08-10T16:43:00Z,Rapid sequence of transactions across payment methods,True
+ALT-00248,ENT-0038,velocity_rule,low,2026-08-10T03:25:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00031,ENT-0060,kyc_mismatch,low,2026-08-09T12:10:00Z,Business classification requires profile review,False
+ALT-00164,ENT-0063,transaction_monitoring,medium,2026-08-08T04:48:00Z,Layered transfers across newly observed counterparties,False
+ALT-00114,ENT-0054,velocity_rule,medium,2026-08-07T19:17:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00130,ENT-0040,velocity_rule,high,2026-08-07T08:13:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00173,ENT-0061,transaction_monitoring,low,2026-08-06T06:09:00Z,Unusual transaction pattern above peer baseline,True
+ALT-00189,ENT-0070,transaction_monitoring,medium,2026-08-05T23:48:00Z,Layered transfers across newly observed counterparties,False
+ALT-00202,ENT-0010,kyc_mismatch,high,2026-08-05T17:05:00Z,Core identity details failed independent verification,True
+ALT-00142,ENT-0026,velocity_rule,low,2026-08-05T15:44:00Z,Short burst of attempts from a familiar channel,False
+ALT-00215,ENT-0010,velocity_rule,low,2026-08-05T09:56:00Z,Short burst of attempts from a familiar channel,False
+ALT-00042,ENT-0008,velocity_rule,high,2026-08-05T00:19:00Z,Extreme transaction burst across multiple channels,True
+ALT-00056,ENT-0005,velocity_rule,high,2026-08-03T02:44:00Z,Extreme transaction burst across multiple channels,False
+ALT-00046,ENT-0054,kyc_mismatch,medium,2026-08-02T06:30:00Z,Identity attributes conflict across verification sources,True
+ALT-00153,ENT-0040,velocity_rule,low,2026-08-01T04:16:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00195,ENT-0032,velocity_rule,medium,2026-07-31T22:05:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00066,ENT-0020,velocity_rule,medium,2026-07-31T21:09:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00247,ENT-0007,watchlist_hit,high,2026-07-31T04:31:00Z,Strong identity match to a monitored party,False
+ALT-00163,ENT-0004,kyc_mismatch,low,2026-07-31T04:04:00Z,Business classification requires profile review,False
+ALT-00037,ENT-0065,kyc_mismatch,low,2026-07-31T02:37:00Z,Minor profile detail differs from verification record,False
+ALT-00205,ENT-0014,kyc_mismatch,high,2026-07-31T01:33:00Z,Core identity details failed independent verification,True
+ALT-00102,ENT-0056,transaction_monitoring,high,2026-07-30T13:47:00Z,High-value transaction chain with unexplained purpose,False
+ALT-00150,ENT-0046,watchlist_hit,low,2026-07-30T10:19:00Z,Weak transliteration match requires analyst review,False
+ALT-00201,ENT-0010,velocity_rule,medium,2026-07-29T07:06:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00182,ENT-0033,velocity_rule,low,2026-07-28T23:00:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00223,ENT-0010,kyc_mismatch,medium,2026-07-28T14:23:00Z,Ownership information differs from submitted profile,False
+ALT-00185,ENT-0043,transaction_monitoring,low,2026-07-28T04:46:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00120,ENT-0063,transaction_monitoring,medium,2026-07-27T22:41:00Z,Layered transfers across newly observed counterparties,False
+ALT-00004,ENT-0024,kyc_mismatch,medium,2026-07-27T03:17:00Z,Ownership information differs from submitted profile,False
+ALT-00212,ENT-0040,transaction_monitoring,medium,2026-07-25T20:28:00Z,Layered transfers across newly observed counterparties,False
+ALT-00126,ENT-0030,kyc_mismatch,low,2026-07-24T17:35:00Z,Business classification requires profile review,False
+ALT-00208,ENT-0041,transaction_monitoring,medium,2026-07-23T19:48:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00191,ENT-0067,transaction_monitoring,low,2026-07-23T18:25:00Z,Small transfer outside established account behavior,False
+ALT-00019,ENT-0010,kyc_mismatch,medium,2026-07-23T11:22:00Z,Identity attributes conflict across verification sources,True
+ALT-00192,ENT-0051,transaction_monitoring,medium,2026-07-22T10:57:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00028,ENT-0003,kyc_mismatch,medium,2026-07-21T11:24:00Z,Ownership information differs from submitted profile,True
+ALT-00162,ENT-0070,velocity_rule,medium,2026-07-21T03:13:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00050,ENT-0003,velocity_rule,low,2026-07-21T00:38:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00184,ENT-0061,velocity_rule,low,2026-07-20T05:56:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00103,ENT-0030,transaction_monitoring,low,2026-07-19T20:19:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00231,ENT-0029,kyc_mismatch,high,2026-07-19T07:04:00Z,Core identity details failed independent verification,False
+ALT-00196,ENT-0010,velocity_rule,high,2026-07-18T12:56:00Z,Extreme transaction burst across multiple channels,True
+ALT-00062,ENT-0068,velocity_rule,high,2026-07-17T11:05:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00159,ENT-0001,velocity_rule,medium,2026-07-17T09:20:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00216,ENT-0021,kyc_mismatch,low,2026-07-17T01:28:00Z,Business classification requires profile review,False
+ALT-00213,ENT-0007,transaction_monitoring,high,2026-07-17T00:38:00Z,High-value transaction chain with unexplained purpose,True
+ALT-00096,ENT-0061,transaction_monitoring,medium,2026-07-16T12:15:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00206,ENT-0001,velocity_rule,medium,2026-07-15T20:13:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00121,ENT-0007,transaction_monitoring,medium,2026-07-15T13:54:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00186,ENT-0042,velocity_rule,medium,2026-07-15T07:33:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00188,ENT-0008,velocity_rule,medium,2026-07-15T03:49:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00051,ENT-0020,velocity_rule,medium,2026-07-14T09:04:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00105,ENT-0014,transaction_monitoring,low,2026-07-14T05:13:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00027,ENT-0009,velocity_rule,medium,2026-07-12T10:52:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00193,ENT-0022,kyc_mismatch,high,2026-07-11T23:11:00Z,Material beneficial-owner mismatch detected,False
+ALT-00209,ENT-0066,transaction_monitoring,medium,2026-07-11T21:55:00Z,Layered transfers across newly observed counterparties,True
+ALT-00167,ENT-0001,transaction_monitoring,medium,2026-07-11T09:20:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00218,ENT-0055,velocity_rule,low,2026-07-09T16:28:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00097,ENT-0049,transaction_monitoring,medium,2026-07-09T14:19:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00200,ENT-0026,watchlist_hit,low,2026-07-09T13:56:00Z,Partial name similarity to a monitored party,True
+ALT-00055,ENT-0016,velocity_rule,medium,2026-07-09T09:02:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00099,ENT-0052,velocity_rule,medium,2026-07-09T04:28:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00240,ENT-0015,velocity_rule,high,2026-07-08T23:46:00Z,Extreme transaction burst across multiple channels,True
+ALT-00181,ENT-0065,transaction_monitoring,medium,2026-07-07T23:57:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00015,ENT-0026,velocity_rule,low,2026-07-07T18:36:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00059,ENT-0049,kyc_mismatch,low,2026-07-05T23:02:00Z,Business classification requires profile review,True
+ALT-00165,ENT-0059,transaction_monitoring,medium,2026-07-03T22:43:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00246,ENT-0043,watchlist_hit,medium,2026-07-03T08:02:00Z,Name and jurisdiction align with a monitored party,False
+ALT-00095,ENT-0051,velocity_rule,low,2026-07-03T02:30:00Z,Short burst of attempts from a familiar channel,False
+ALT-00111,ENT-0008,transaction_monitoring,medium,2026-07-03T01:42:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00049,ENT-0045,watchlist_hit,low,2026-07-02T19:08:00Z,Weak transliteration match requires analyst review,False
+ALT-00198,ENT-0012,transaction_monitoring,low,2026-07-02T10:19:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00115,ENT-0021,watchlist_hit,medium,2026-07-02T00:35:00Z,Name and jurisdiction align with a monitored party,True
+ALT-00135,ENT-0024,velocity_rule,medium,2026-06-30T19:40:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00068,ENT-0023,transaction_monitoring,medium,2026-06-30T10:14:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00125,ENT-0014,velocity_rule,high,2026-06-29T08:46:00Z,Extreme transaction burst across multiple channels,True
+ALT-00187,ENT-0053,transaction_monitoring,high,2026-06-29T08:29:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00143,ENT-0047,transaction_monitoring,high,2026-06-28T14:38:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00238,ENT-0051,watchlist_hit,medium,2026-06-28T01:15:00Z,Name and jurisdiction align with a monitored party,False
+ALT-00032,ENT-0050,transaction_monitoring,low,2026-06-27T19:38:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00089,ENT-0070,transaction_monitoring,low,2026-06-27T18:38:00Z,Small transfer outside established account behavior,False
+ALT-00083,ENT-0056,transaction_monitoring,high,2026-06-27T08:31:00Z,High-value transaction chain with unexplained purpose,False
+ALT-00124,ENT-0042,transaction_monitoring,medium,2026-06-27T07:46:00Z,Layered transfers across newly observed counterparties,False
+ALT-00203,ENT-0034,transaction_monitoring,medium,2026-06-27T05:08:00Z,Layered transfers across newly observed counterparties,True
+ALT-00174,ENT-0006,transaction_monitoring,medium,2026-06-27T05:01:00Z,Layered transfers across newly observed counterparties,False
+ALT-00168,ENT-0010,kyc_mismatch,low,2026-06-26T23:06:00Z,Business classification requires profile review,False
+ALT-00239,ENT-0024,transaction_monitoring,medium,2026-06-26T13:11:00Z,Layered transfers across newly observed counterparties,False
+ALT-00233,ENT-0041,watchlist_hit,medium,2026-06-26T09:31:00Z,Multiple identity fields match a watchlist record,True
+ALT-00071,ENT-0001,kyc_mismatch,low,2026-06-25T19:23:00Z,Minor profile detail differs from verification record,False
+ALT-00249,ENT-0035,transaction_monitoring,high,2026-06-25T08:04:00Z,High-value transaction chain with unexplained purpose,False
+ALT-00169,ENT-0038,transaction_monitoring,medium,2026-06-24T19:38:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00180,ENT-0021,transaction_monitoring,medium,2026-06-24T15:04:00Z,Layered transfers across newly observed counterparties,False
+ALT-00234,ENT-0037,transaction_monitoring,medium,2026-06-23T21:53:00Z,Layered transfers across newly observed counterparties,False
+ALT-00145,ENT-0001,transaction_monitoring,medium,2026-06-23T03:49:00Z,Layered transfers across newly observed counterparties,False
+ALT-00054,ENT-0069,kyc_mismatch,medium,2026-06-22T23:11:00Z,Identity attributes conflict across verification sources,False
+ALT-00122,ENT-0020,transaction_monitoring,low,2026-06-22T11:09:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00230,ENT-0060,transaction_monitoring,high,2026-06-22T08:36:00Z,Large rapid movement of funds through linked accounts,True
+ALT-00048,ENT-0002,kyc_mismatch,low,2026-06-22T04:52:00Z,Business classification requires profile review,False
+ALT-00228,ENT-0008,transaction_monitoring,low,2026-06-22T01:09:00Z,Small transfer outside established account behavior,False
+ALT-00157,ENT-0063,transaction_monitoring,medium,2026-06-21T20:20:00Z,Layered transfers across newly observed counterparties,True
+ALT-00217,ENT-0052,velocity_rule,low,2026-06-20T18:29:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00112,ENT-0056,velocity_rule,low,2026-06-20T10:45:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00214,ENT-0007,velocity_rule,medium,2026-06-20T02:40:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00082,ENT-0048,velocity_rule,low,2026-06-19T17:42:00Z,Short burst of attempts from a familiar channel,False
+ALT-00003,ENT-0040,transaction_monitoring,medium,2026-06-19T15:42:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00104,ENT-0041,velocity_rule,medium,2026-06-19T04:53:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00232,ENT-0026,kyc_mismatch,medium,2026-06-18T16:33:00Z,Ownership information differs from submitted profile,True
+ALT-00040,ENT-0024,transaction_monitoring,medium,2026-06-17T11:30:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00179,ENT-0013,velocity_rule,low,2026-06-17T10:25:00Z,Short burst of attempts from a familiar channel,False
+ALT-00069,ENT-0014,transaction_monitoring,medium,2026-06-17T05:00:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00116,ENT-0015,watchlist_hit,medium,2026-06-17T02:40:00Z,Multiple identity fields match a watchlist record,False
+ALT-00245,ENT-0024,watchlist_hit,medium,2026-06-16T19:32:00Z,Name and jurisdiction align with a monitored party,False
+ALT-00061,ENT-0061,transaction_monitoring,high,2026-06-16T18:06:00Z,Large rapid movement of funds through linked accounts,True
+ALT-00065,ENT-0031,watchlist_hit,medium,2026-06-16T07:00:00Z,Multiple identity fields match a watchlist record,False
+ALT-00148,ENT-0033,transaction_monitoring,medium,2026-06-16T02:43:00Z,Layered transfers across newly observed counterparties,False
+ALT-00090,ENT-0055,kyc_mismatch,medium,2026-06-15T10:51:00Z,Identity attributes conflict across verification sources,False
+ALT-00101,ENT-0020,transaction_monitoring,medium,2026-06-14T16:10:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00001,ENT-0033,kyc_mismatch,medium,2026-06-14T05:32:00Z,Identity attributes conflict across verification sources,False
+ALT-00175,ENT-0024,transaction_monitoring,medium,2026-06-13T22:24:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00018,ENT-0060,velocity_rule,medium,2026-06-13T06:16:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00210,ENT-0002,transaction_monitoring,medium,2026-06-13T05:41:00Z,Layered transfers across newly observed counterparties,False
+ALT-00021,ENT-0003,transaction_monitoring,low,2026-06-12T10:03:00Z,Small transfer outside established account behavior,False
+ALT-00045,ENT-0043,transaction_monitoring,low,2026-06-12T07:23:00Z,Small transfer outside established account behavior,False
+ALT-00085,ENT-0005,watchlist_hit,medium,2026-06-11T19:09:00Z,Name and jurisdiction align with a monitored party,False
+ALT-00151,ENT-0032,kyc_mismatch,high,2026-06-11T15:56:00Z,Material beneficial-owner mismatch detected,False
+ALT-00118,ENT-0024,velocity_rule,medium,2026-06-11T03:23:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00133,ENT-0057,transaction_monitoring,low,2026-06-10T05:37:00Z,Small transfer outside established account behavior,False
+ALT-00098,ENT-0056,transaction_monitoring,medium,2026-06-09T23:36:00Z,Layered transfers across newly observed counterparties,False
+ALT-00070,ENT-0026,kyc_mismatch,low,2026-06-09T23:07:00Z,Minor profile detail differs from verification record,False
+ALT-00074,ENT-0036,transaction_monitoring,medium,2026-06-09T19:22:00Z,Transaction pattern inconsistent with stated activity,True
+ALT-00155,ENT-0024,kyc_mismatch,low,2026-06-09T06:53:00Z,Business classification requires profile review,True
+ALT-00079,ENT-0033,transaction_monitoring,high,2026-06-08T17:04:00Z,High-value transaction chain with unexplained purpose,True
+ALT-00129,ENT-0016,transaction_monitoring,high,2026-06-08T14:33:00Z,Large rapid movement of funds through linked accounts,True
+ALT-00014,ENT-0014,kyc_mismatch,low,2026-06-08T06:47:00Z,Minor profile detail differs from verification record,False
+ALT-00235,ENT-0004,transaction_monitoring,high,2026-06-07T14:30:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00041,ENT-0034,velocity_rule,medium,2026-06-07T09:54:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00039,ENT-0017,transaction_monitoring,low,2026-06-07T07:16:00Z,Small transfer outside established account behavior,False
+ALT-00134,ENT-0045,velocity_rule,low,2026-06-06T19:23:00Z,Activity count modestly exceeded rolling threshold,False
+ALT-00171,ENT-0017,velocity_rule,medium,2026-06-06T07:49:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00222,ENT-0010,velocity_rule,high,2026-06-06T04:05:00Z,Extreme transaction burst across multiple channels,False
+ALT-00152,ENT-0048,watchlist_hit,medium,2026-06-05T23:39:00Z,Multiple identity fields match a watchlist record,False
+ALT-00030,ENT-0064,velocity_rule,medium,2026-06-05T12:36:00Z,Repeated attempts exceeded the hourly velocity limit,False
+ALT-00077,ENT-0049,transaction_monitoring,medium,2026-06-05T05:24:00Z,Layered transfers across newly observed counterparties,True
+ALT-00043,ENT-0038,velocity_rule,high,2026-06-04T11:40:00Z,Sustained high-frequency activity after repeated declines,False
+ALT-00197,ENT-0051,velocity_rule,high,2026-06-04T11:11:00Z,Extreme transaction burst across multiple channels,False
+ALT-00022,ENT-0031,transaction_monitoring,medium,2026-06-03T15:02:00Z,Transaction pattern inconsistent with stated activity,False
+ALT-00241,ENT-0023,kyc_mismatch,high,2026-06-03T08:48:00Z,Material beneficial-owner mismatch detected,False
+ALT-00023,ENT-0044,velocity_rule,medium,2026-06-03T07:41:00Z,Rapid sequence of transactions across payment methods,False
+ALT-00087,ENT-0051,transaction_monitoring,high,2026-06-03T02:19:00Z,Large rapid movement of funds through linked accounts,True
+ALT-00107,ENT-0021,transaction_monitoring,low,2026-06-03T01:23:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00067,ENT-0035,transaction_monitoring,high,2026-06-02T08:08:00Z,Large rapid movement of funds through linked accounts,False
+ALT-00176,ENT-0038,kyc_mismatch,low,2026-06-01T23:59:00Z,Minor profile detail differs from verification record,False
+ALT-00190,ENT-0063,transaction_monitoring,low,2026-06-01T18:25:00Z,Unusual transaction pattern above peer baseline,False
+ALT-00033,ENT-0022,transaction_monitoring,low,2026-05-31T19:19:00Z,Small transfer outside established account behavior,False

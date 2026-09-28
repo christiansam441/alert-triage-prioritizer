@@ -1,0 +1,10 @@
+{
+  "source_reliability": {
+    "kyc_mismatch": 0.2,
+    "transaction_monitoring": 0.16,
+    "velocity_rule": 0.065,
+    "watchlist_hit": 0.34
+  },
+  "total_alerts": 250,
+  "true_positive_rate": 0.184
+}
